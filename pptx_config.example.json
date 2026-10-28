@@ -1,0 +1,52 @@
+{
+  "input_pptx": "../パワポ.pptx",
+  "output_pptx": "output/comparison_result.pptx",
+  "datasets": [
+    {
+      "name": "DataSet A",
+      "match_conditions": ["kV", "mA", "sec"],
+      "include_values": {"mA": [2, 6, 10]},
+      "slide_title_location": [1.0, 0.4],
+      "slide_title_size": [1.2, 31.0],
+      "slide_title_font_size_pt": 24,
+      "folders": [
+        {
+          "annotation": "Folder A",
+          "folder_path": "G:\\X800+_HPK_C14408DK-50\\XRPad2\\Phantom\\20260929_Phantom\\LA\\Setting1",
+          "zooms": {
+              "Zoom A": {
+                  "cut_size": [3.0, 3.0],
+                  "cut_location": [1.0, 1.0],
+                  "size": [5.0, 7.0],
+                  "location": [2.0, 6.0]
+                },
+                "Zoom B": {
+                    "cut_size": [2.0, 2.5],
+                    "cut_location": [5.0, 4.0],
+                    "size": [5.0, 7.0],
+                    "location": [2.0, 9.0]
+                }
+            }
+        },
+        {
+            "annotation": "Folder B",
+            "folder_path": "G:\\X800+_HPK_C14408DK-50\\XRPad2\\Phantom\\20260929_Phantom\\LA\\Setting1",
+          "zooms": {
+            "Zoom A": {
+              "cut_size": [3.0, 3.0],
+              "cut_location": [1.0, 1.0],
+              "size": [5.0, 7.0],
+              "location": [13.0, 6.0]
+            },
+            "Zoom B": {
+              "cut_size": [2.0, 2.5],
+              "cut_location": [5.0, 4.0],
+              "size": [5.0, 7.0],
+              "location": [13.0, 9.0]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

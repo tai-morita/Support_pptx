@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "support-pptx"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "python-pptx>=1.0,<2",
+    "Pillow>=10,<13",
+]
+
+[project.scripts]
+support-pptx = "cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = [
+    "cli",
+    "config",
+    "matching",
+    "models",
+    "presentation",
+    "service",
+]

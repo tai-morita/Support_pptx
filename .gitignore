@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local configuration may contain machine-specific paths.
+/pptx_config.json
+/pptx_config.*.json
+!/pptx_config.example.json
+
+# Generated PowerPoint files.
+/output/
+/venv/
